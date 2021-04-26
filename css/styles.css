@@ -411,11 +411,6 @@ ul {
   fill: currentColor;
 }
 
-/* .clients-logo-icon:hover,
-.clients-logo-icon:focus {
-  fill: currentColor;
-} */
-
 .clients-icon-link {
   display: flex;
   align-items: center;
@@ -423,9 +418,6 @@ ul {
   width: 170px;
   height: 92px;
 
-  /* display: block;
-
-  padding: 15px 31px; */
   border: 1px solid var(--icons-color);
   border-radius: 4px;
 }
