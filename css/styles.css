@@ -406,15 +406,26 @@ ul {
   width: 106px;
   height: 60px;
 }
-.clients-logo-icon:hover,
-.clients-logo-icon:focus {
+.clients-icon-link:hover .clients-logo-icon,
+.clients-icon-link:focus .clients-logo-icon {
   fill: currentColor;
 }
 
-.clients-icon-link {
-  display: block;
+/* .clients-logo-icon:hover,
+.clients-logo-icon:focus {
+  fill: currentColor;
+} */
 
-  padding: 15px 31px;
+.clients-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+
+  /* display: block;
+
+  padding: 15px 31px; */
   border: 1px solid var(--icons-color);
   border-radius: 4px;
 }
