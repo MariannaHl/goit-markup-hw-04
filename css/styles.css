@@ -273,9 +273,14 @@ ul {
   line-height: 1.71;
 }
 .feature-icon-div {
+  display: flex;
+  width: 270px;
+  height: 120px;
   background-color: var(--team-bgcolor);
   border-radius: 4px;
-  padding: 25px 100px;
+  justify-content: center;
+  align-items: center;
+  /* padding: 25px 100px; */
 
   margin-bottom: 30px;
 }
@@ -401,10 +406,9 @@ ul {
   width: 106px;
   height: 60px;
 }
-
-.clients-logo-icon:focus,
-.clients-logo-icon:hover {
-  fill: var(--accent-color);
+.clients-logo-icon:hover,
+.clients-logo-icon:focus {
+  fill: currentColor;
 }
 
 .clients-icon-link {
@@ -418,6 +422,7 @@ ul {
 .clients-icon-link:hover,
 .clients-icon-link:focus {
   border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .footer .link {
